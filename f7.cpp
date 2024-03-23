@@ -1,7 +1,7 @@
 /*
  FILE :f7.cpp
  PROJECT : FOCUSSED ASSIGNMENT-7
- PROGRAMMER :MANREET THIND
+ PROGRAMMER :MANREET THIND (STUDENT ID- 8982315)
  FIRSTVERSION :22/03/24
  DESCRIPTION :
  The functions in this file give you practice at creating text and binary files.
@@ -17,7 +17,7 @@
  1. "This is line 1."
  2. "This is line 2."
  Both lines end with the '\n' character.
- Returns 0 upon successful file creation and writing,otherwise returns -1 if there 
+ Returns 0 upon successful file creation and writing,otherwise returns -1 if there
  is an error creating or writing to the file.
 */
 int writeTextFile()
@@ -70,7 +70,6 @@ void writeBinaryFile()
 
     fclose(binaryFile);
 }
-
 int main()
 {
     // Writing text file
